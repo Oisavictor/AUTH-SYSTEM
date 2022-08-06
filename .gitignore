@@ -1,7 +1,7 @@
 node_modules/
 config
 .env
-db
+/db
 # dependencies
 /client/node_modules
 /client/.pnp
