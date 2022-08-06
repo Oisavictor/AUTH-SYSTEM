@@ -11,7 +11,7 @@ const router = express.Router();
 router.get('/', (req, res) => {
     res.status(200).json({
         "status": 'success_msg',
-        "message": 'You are login out'
+        "message": 'You are logged out'
     });
 
 });

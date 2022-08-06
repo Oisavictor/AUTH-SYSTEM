@@ -25,7 +25,7 @@ app.use('/api/staffAuth', require('./routes/staffAuth'));
 app.use('/api/managerAuth', require('./routes/managerAuth'));
 app.use('/api/adminAuth', require('./routes/adminAuth'));
 app.use('/api/login', require('./routes/login'));
-
+app.use('/api/logout', require('./routes/logout'));
 
 
 const Port = process.env.PORT || 9005;
